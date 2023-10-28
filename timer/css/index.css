@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Young+Serif&display=swap');
+.main{
+    width: 100%;
+    height: 100vh;
+    background: url(../img/raimond-klavins-lt_zJH4GT_M-unsplash.jpg) center;
+    background-size:cover ;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    color: aliceblue;
+    background-color: rgba(0,0, 0, 0.7);
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+.title{
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+}
+.col{
+    margin-top: 20px;
+    width: 1000px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: aliceblue;
+}
+.col div{
+    width: 250px;
+    text-align:center;
+}
+input{
+    width: 50%;
+    background-color: aliceblue;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+}
